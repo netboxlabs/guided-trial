@@ -9,7 +9,7 @@ Get hands on with NetBox by adding a new switch to the rack in Amsterdam (`NLAMS
 
 
 ## Steps 
-1. From the Amsterdam rack (`Organisations` > `Racks` > `NLAMS01-RK-01`) hover your mouse over rack unit `38`, which is underneath device `NLAMS01-SW-1`, and click **add device**.
+1. From the Amsterdam rack (**Organisations** > **Racks** > **NLAMS01-RK-01**) hover your mouse over rack unit `38`, which is underneath device `NLAMS01-SW-1`, and click **add device**.
 2. Name the device `NLAMS01-SW-2`.
 3. Select `Access Switch` from the drop-down menu for the **Device role**.
 4. For **Device Type**, select `EX4300-48P`.
