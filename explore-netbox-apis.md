@@ -8,7 +8,7 @@ Follow these steps to get familiar with the following:
 
 ### REST API
 1. Scroll down to the footer of the Web UI. On the left hand side there are 5 icons, and a tool tip appears over each one when you hover over it. Click on the one called **REST API**. This opens a separate browser tab in the root of the REST API.
-2. Explore the API from here - e.g click on the `circuits` hyperlink, and then on on `circuits` (full API request is now `GET /api/circuits/circuits/`). This API request will return all the circuits NetBox. 
+2. Explore the API from here - e.g click on the `circuits` hyperlink, and then on `circuits` (the full API request is now `GET /api/circuits/circuits/`). This API request will return all the circuits NetBox. 
 3. Continue to explore the REST API and make API calls to retrieve other data from NetBox
 4. Return to the main NetBox Web UI and scroll down to the footer. On the left hand side there are 5 icons, and a tool tip appears over each one when you hover over it. Click on the one called **REST API Documenation**. This opens the Swagger documentation for the REST API in a separate browser tab. 
 
