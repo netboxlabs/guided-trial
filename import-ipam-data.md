@@ -4,8 +4,8 @@ Follow these steps to manually create a VLAN Group and then bulk import VLANs an
 
 Before starting this exercise, download the 2 files you will need be importing: 
 
-[VLAN Data](https://github.com/netboxlabs/guided-trial/blob/develop/LA_VLANs.csv)
-[Prefix Data](https://github.com/netboxlabs/guided-trial/blob/develop/LA_prefixes.csv)
+- [VLAN Data](https://github.com/netboxlabs/guided-trial/blob/develop/LA_VLANs.csv)
+- [Prefix Data](https://github.com/netboxlabs/guided-trial/blob/develop/LA_prefixes.csv)
 
 These are CSV files containing the new VLAN and Prefix data to be bulk imported. Inspect the files to understand the data being imported.
 
