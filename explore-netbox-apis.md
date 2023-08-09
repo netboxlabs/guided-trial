@@ -34,4 +34,4 @@ Follow these steps to get familiar with the following:
   }
 }
 ```
-3. Review the data returned in the panel on the right-hand side. 
+3. Click the **Execute Query** button, and then review the device data returned in the panel on the right-hand side. 
