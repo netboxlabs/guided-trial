@@ -12,3 +12,7 @@ Follow these instructions for a guided tour of your free trial of NetBox Cloud f
 1. Follow this [guide](explore-ipam-data.md) to learn how NetBox models IPAM Data like - RIRs, Prefixes, IP Addresses and VLANs
 2. Get hands on! Assign an IP address to the Amsterdam router by following this [guide](assign-ip-address.md)
 3. Get hands on! Follow this [guide](/import-ipam-data.md) to create a VLAN Group and then bulk import VLANs and Prefixes from a spreadsheet 
+
+## Explore Network Automation
+
+1. Follow this [guide](explore-netbox-apis.md) to get familiar with the NetBox REST and GraphQL APIS 
