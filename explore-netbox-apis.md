@@ -35,3 +35,16 @@ Follow these steps to get familiar with the following:
 }
 ```
 3. Click the **Execute Query** button, and then review the device data returned in the panel on the right-hand side. 
+4. Try running this query to return the `name` and `location` of the rack at the Amsterdam site
+```
+query GetRacksAtSite {
+  site(id: 1) {
+    racks {
+      name
+      location {
+        name
+      }
+    }
+  } 
+}
+```
