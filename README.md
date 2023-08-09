@@ -1,4 +1,4 @@
-# NetBox CLoud Guided Free Trial 
+# NetBox Cloud Guided Free Trial 
 Follow these instructions for a guided tour of your free trial of NetBox Cloud from NetBox Labs
 
 ## Explore DCIM
