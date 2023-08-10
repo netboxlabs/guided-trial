@@ -9,7 +9,7 @@ Before starting this exercise, download the 2 files you will be importing in lat
 
 These are CSV files containing the new VLAN and Prefix data to be bulk imported. Inspect the files to understand the data being imported.
 
-1. In left-hand main menu click on **IPAM** > **VLAN Groups**, and note the existing VLAN Group for Amsterdam `NLAMS01_VLANS`.
+1. In left-hand main menu click on **IPAM** > **VLAN Groups**, and note the existing VLAN Groups for Sydney and Amsterdam.
 2. Click **Add** and name the new group `USLAX01_VLANS`, add `Los Angeles VLANs` as the description. 
 3. Set the **scope** to `DCIM > Site`, the **Region** to `California`, **Site Group** to `Branch` and the **Site** to `Los Angeles`, then click **Create**
 4. In left-hand main menu under **IPAM** > **VLANs**, click the blue **up arrow** symbol to import data, and click on the **Upload File** tab underneath **VLAN Bulk Import** 

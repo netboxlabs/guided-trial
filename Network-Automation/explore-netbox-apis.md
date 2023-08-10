@@ -12,7 +12,7 @@ Follow these steps to get familiar with the following:
 3. Continue to explore the REST API and make API calls to retrieve other data from NetBox
 4. Return to the main NetBox Web UI and scroll down to the footer. On the left hand side there are 5 icons, and a tool tip appears over each one when you hover over it. Click on the one called **REST API Documentation**. This opens the Swagger documentation for the REST API in a separate browser tab. 
 
-    The Swagger docs are where you can experiment with building API calls. Note that there are sections for each areas of the NetBox data model eg. `circuits`, `dcim`, `wireless` etc.  
+    The Swagger docs are where you can experiment with building API calls. Note that there are sections for each area of the NetBox data model eg. `circuits`, `dcim`, `wireless` etc.  
 5. Make an API call to retrieve a list of devices in the `Amsterdam` site. Under the `DCIM` section find the `GET /api/dcim/devices/` API call. Click to open it, and then click **Try it out** on the right hand side
 6. To filter on only the `amsterdam` site, scroll down and find the `site` parameter, click `Add string item` and enter the site slug of `amsterdam` (lowercase)
 7. Scroll further down and click on **Execute** 
