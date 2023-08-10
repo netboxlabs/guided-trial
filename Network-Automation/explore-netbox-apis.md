@@ -15,8 +15,8 @@ Follow these steps to get familiar with the following:
     The Swagger docs are where you can experiment with building API calls. Note that there are sections for each area of the NetBox data model eg. `circuits`, `dcim`, `wireless` etc.  
 5. Make an API call to retrieve a list of devices in the `Amsterdam` site. Under the `DCIM` section find the `GET /api/dcim/devices/` API call. Click to open it, and then click **Try it out** on the right hand side
 6. To filter on only the `amsterdam` site, scroll down and find the `site` parameter, click `Add string item` and enter the site slug of `amsterdam` (lowercase)
-7. Scroll further down and click on **Execute** 
-8. In the **Responses** section note the full `curl` request and `Request URL` and then scroll down through the **Response Body** to view the data that has been returned from NetBox 
+7. Scroll further down and click on **Execute**. 
+8. In the **Responses** section note the full `curl` request and `Request URL` and then scroll down (you'll need to scroll down a lot to see the results) to the **Response Body** to view the data that has been returned from NetBox 
 
 ### GraphQL API
 1. In the main NetBox Web UI, scroll down to the footer on the left hand side there are 5 icons, and a tool tip appears over each one when you hover over it. Click on the one called **GraphQL API**. This opens a separate browser tab in which you can use the **GraphiQL** utility to build API calls. 
