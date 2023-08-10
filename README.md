@@ -17,3 +17,4 @@ Follow these instructions for a guided tour of your free trial of NetBox Cloud f
 
 1. Follow this [guide](explore-netbox-apis.md) to get familiar with the NetBox REST and GraphQL APIs 
 2. Learn how NetBox uses Config Contexts and Config Templates to render network device configurations. See this [guide](explore-provisioning.md)
+3. Get hands on! Follow this [guide](render-config-api.md) to render the configuration of a device using the REST API. 
