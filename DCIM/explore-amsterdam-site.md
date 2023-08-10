@@ -22,7 +22,7 @@ Follow these steps to understand how NetBox models the following object types:
 10. Click on the **Topology** icon (top right of the screen) to explore how the devices are connected. Zoom in and out and drag devices around. Note that this Topology Viewer is a **plugin**, and that many other plugins are available to easily extend NetBox core functionality.
 11. Within **Related Objects**, click the `1` next to **Racks** and then click on the name of the rack `NLAMS01-RK-01`
 12. In the **Rack** panel note the **Role** of the rack is `Infrastructure`, and that you can define these roles to suit your requirements. Also note the **Space** and **Power** Utilization
-13. In the **Dimensions panel**, note the type of panel is a `4 post cabinet`, `19 inches` in width, with `42U` of space, and that you can define other types of racks. 
+13. In the **Dimensions panel**, note the type of panel is a `4 post cabinet`, `19 inches` in width, with `42U` of space. You can define other types of racks to suit your requirements.
 14. Explore the **Front** and **Rear** rack elevations. 
 15. In the main menu on the left hand side, select **Wireless** > **Wireless LAN Groups**, then select `Europe_WLANS`. 
 16. In the **Related Objects** panel, click on **Wireless LANs**, then select one of the SSID’s to examine it’s properties

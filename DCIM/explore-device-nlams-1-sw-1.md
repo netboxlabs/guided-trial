@@ -21,5 +21,5 @@ Follow these steps to understand how NetBox models the following objects:
 4. Along the top menu, click on **Interfaces**, then click in interface `ge-0/0/1`. Note the interface **type**, and the **802.1Q mode**. 
 5. In the **Related Interfaces** panel, note this is a member of a **LAG** (Aggregated Interface) called `ae0`. 
 6. In the **Connection** panel on the right hand side note that this interface is directly connected to device `NLAMS01-VSP-1` port `Gig-E 1`. Click on the **Trace** icon next to **Cable** to view the trace. Note the cable type, color and length. 
-7. Go back to the device and click on **Console Ports**, note the cable connected to the Console server port. 
-8. Go back to the device and click **Power Ports** and note that both ports are connected to separate PDUs and outlets. 
+7. Click the back button in your browser, and click on the name of the device **NLAMS01-SW-1** and click on **Console Ports**, note the cable connected to the Console server port. 
+8. Click **Power Ports** and note that both ports are connected to separate PDUs and outlets. 
