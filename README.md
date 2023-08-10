@@ -15,7 +15,7 @@ Follow these instructions for a guided tour of your free trial of NetBox Cloud f
 
 ## Explore Network Automation
 
-1. Follow this [guide](Network Automation/explore-netbox-apis.md) to get familiar with the NetBox REST and GraphQL APIs 
-2. Learn how NetBox uses Config Contexts and Config Templates to render network device configurations. See this [guide](Network Automation/explore-provisioning.md)
-3. Get hands on! Follow this [guide](Network Automation/render-config-api.md) to render the configuration of a device using the REST API. 
-4. Get hands on! Follow this [guide](Network Automation/add-webhook.md) to create and test a Webhook to an external system. 
+1. Follow this [guide](Network-Automation/explore-netbox-apis.md) to get familiar with the NetBox REST and GraphQL APIs 
+2. Learn how NetBox uses Config Contexts and Config Templates to render network device configurations. See this [guide](Network-Automation/explore-provisioning.md)
+3. Get hands on! Follow this [guide](Network-Automation/render-config-api.md) to render the configuration of a device using the REST API. 
+4. Get hands on! Follow this [guide](Network-Automation/add-webhook.md) to create and test a Webhook to an external system. 
