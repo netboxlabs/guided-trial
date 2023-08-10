@@ -1,7 +1,0 @@
-vid,name,site,group,tenant,status,role
-10,DATA,Los Angeles,USLAX01_VLANS,Sales,active,Branch_Data
-20,VOICE,Los Angeles,USLAX01_VLANS,Sales,active,Branch_Voice
-30,B_WIFI,Los Angeles,USLAX01_VLANS,Sales,active,Branch_WiFi
-40,G_WIFI,Los Angeles,USLAX01_VLANS,Sales,active,Guest_WiFi
-50,NETMAN,Los Angeles,USLAX01_VLANS,Sales,active,Network_Management
-60,P2P,Los Angeles,USLAX01_VLANS,Sales,active,Point_to_Point
