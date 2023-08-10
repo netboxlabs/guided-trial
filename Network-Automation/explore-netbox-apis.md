@@ -35,7 +35,7 @@ query GetDevicesAtSite {
   }
 }
 ```
-3. Click the **Execute Query** button, and then review the device data returned in the panel on the right-hand side. 
+3. Click on the **Play** button, and then review the device data returned in the panel on the right-hand side. 
 4. Try running this query to return the `name` and `location` of the rack at the Amsterdam site
 ```
 query GetRacksAtSite {
