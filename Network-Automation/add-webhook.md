@@ -15,6 +15,6 @@ Follow these steps to:
 
 ### Test Webhook
 1. Add a new IP Address, by navigating to **IPAM** > **IP Addresses** and click on **+**. 
-2. Enter `10.0.0.20/26` as the IP address, then scroll down an click **Create**, this will trigger the webhook
+2. Enter `10.0.0.20/26` as the IP address, then scroll down and click **Create**, this will trigger the webhook
 3. Return to the browser tab that has https://webhook.site/ open and you should see that a new `POST` was received and you will be able to see the raw content of the payload from the API call.
 4. Test that deletion also triggers the webhook by deleting the IP address you created in step 1. and checking the `POST` was received again on the test site. 
