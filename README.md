@@ -16,3 +16,4 @@ Follow these instructions for a guided tour of your free trial of NetBox Cloud f
 ## Explore Network Automation
 
 1. Follow this [guide](explore-netbox-apis.md) to get familiar with the NetBox REST and GraphQL APIS 
+2. Learn how NetBox uses Config Contexts and Config Templates to render network device configurations. See this [guide](explore-provisioning.md)
