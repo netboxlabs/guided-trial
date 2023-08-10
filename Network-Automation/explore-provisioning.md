@@ -8,7 +8,7 @@ Follow these steps to get familiar with the following:
 ### Data Sources   
 1. In the Web UI main menu, navigate to **Operations** and click **Data Sources**, and click on the data source called `Guided Trial Data Source`
 2. Note the Data Source properties - this is a remote Git repository and it has been set to ignore any `.md` or `.csv` files. Data Sources can be either the local file system, a remote Git repo or an Amazon S3 Bucket. 
-3. scroll down to the **Files** section and click on the file called `	cisco-switch-template-example.j2` This is a Jinja 2 template file for a Cisco Switch that is being used to render the full configuration for Cisco 9200-24P device types.   
+3. scroll down to the **Files** section and click on the file called `cisco-switch-template-example.j2` This is a Jinja 2 template file for a Cisco Switch that is being used to render the full configuration for Cisco 9200-24P device types.   
 4. Click the back button in your browser and in the **Files** section, click on the file called `sydney-config-context.json` this contains data in `JSON` format that is used in a **Config Context** for devices in the `Sydney` site. 
 5. Try adding a new **Data Source** by navigating to **Operations** and click **Data Sources** again. In the top-right corner click on **+ Add**, give it a name and choose either `Git` or `Amazon S3` for the **Type**. Fill out the rest of the form and click **Create**
 
