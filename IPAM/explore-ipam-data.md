@@ -4,7 +4,6 @@ Follow these steps to understand how NetBox models the following object types:
 
 - RIRs
 - Aggregates
-- Supernets
 - Prefixes
 - IP Addresses
 - Prefix and VLAN roles
