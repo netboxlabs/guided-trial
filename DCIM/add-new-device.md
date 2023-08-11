@@ -24,5 +24,5 @@ Get hands on with NetBox by adding a new switch to the rack in Amsterdam (`NLAMS
 13. Repeat this for interface `et-0/1/1` (note that it is possible to upload objects like cables in bulk from CSV, JSON and YAML data and files) 
 14. From the interfaces list select both interfaces `et-0/1/0` and `et-0/1/1` and click **Edit** (bottom left).
 15. Scroll down to **802.1Q Switching** and set the **Mode** to `Tagged All`, and the **VLAN Group** to `NLAMS01_VLANS`, and click **Apply**.
-16. Repeat this process for for the same two interface on switch `NLAMS01-SW-1`
+16. Repeat this process for for the same two interfaces on switch `NLAMS01-SW-1`
 17. Navigate back to the Amsterdam site (**Organisations** > **Sites** > **Amsterdam**) and click on the **Topology** icon to view the new topology now that you have added a 2nd switch to the rack. 

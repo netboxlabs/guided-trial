@@ -17,9 +17,9 @@ Follow these steps to understand how NetBox models the following object types:
 5. Note the other fields containing information about the location and time zone.
 6. Explore the **Related Objects** panel on the right to see what objects are associated with the Amsterdam site, such as `Locations`, `Racks`, `Devices`, and `Circuits`.
 7. Click on the **Contacts** tab and note that there is an `Operations` contact (Eric) associated with the site.
-8. Click back on the **Site** tab and scroll down to **Locations** and note that there is one location called `Comms Room` and it contains a single rack with some Devices in it. 
+8. Click back on the **Site** tab and scroll down to **Locations** and note that there is one location called `Comms Room` and it contains a single rack with some devices in it. 
 9. Scroll further down and notice the two un-racked devices, which are Wireless Access Points.  
-10. Click on the **Topology** icon (top right of the screen) to explore how the devices are connected. Zoom in and out and drag devices around. Note that this Topology Viewer is a **plugin**, and that many other plugins are available to easily extend NetBox core functionality.
+10. Click on the **Topology** icon (top right of the screen) to explore how the devices are connected. Zoom in and out and drag devices around. Note that this Topology Viewer is a **plugin**, and that many other plugins are available to easily extend the NetBox core functionality.
 11. Within **Related Objects**, click the `1` next to **Racks** and then click on the name of the rack `NLAMS01-RK-01`
 12. In the **Rack** panel note the **Role** of the rack is `Infrastructure`, and that you can define these roles to suit your requirements. Also note the **Space** and **Power** Utilization
 13. In the **Dimensions panel**, note the type of panel is a `4 post cabinet`, `19 inches` in width, with `42U` of space. You can define other types of racks to suit your requirements.
@@ -32,4 +32,4 @@ Follow these steps to understand how NetBox models the following object types:
 20. In the main menu on the left hand side, click **Power** > **Power Panels** and then click on panel `NLAMS01-PWR-PAN-1`
 21. Scroll down to **Power Feeds**, and click on the feed `NLAMS01-PWR-FEED-1`. Examine the properties and electrical characteristics. 
 22. In the **Connection** panel on the right hand side, note the **Path Endpoints** and click on the `NLAMS01-PDU-1` PDU. Explore the **Device**, **Management** and **Power Utilization** information.
-23. On the **Power Outlets** tab at the top, note the cables connecting devices to the PDU.
+23. Click on the **Power Outlets** tab at the top, note the cables connecting devices to the PDU.
