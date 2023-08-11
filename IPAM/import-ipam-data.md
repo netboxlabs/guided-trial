@@ -7,7 +7,7 @@ Before starting this exercise, download the 2 files you will be importing in lat
 - [VLAN Data](https://github.com/netboxlabs/guided-trial/blob/develop/IPAM/LA_VLANs.csv)
 - [Prefix Data](https://github.com/netboxlabs/guided-trial/blob/develop/IPAM/LA_prefixes.csv)
 
-These are CSV files containing the new VLAN and Prefix data to be bulk imported. Inspect the files to understand the data being imported.
+These are CSV files containing the new VLAN and Prefix data to be bulk imported. Open the files to understand the data being imported.
 
 1. In left-hand main menu click on **IPAM** > **VLAN Groups**, and note the existing VLAN Groups for Sydney and Amsterdam.
 2. Click **Add** and name the new group `USLAX01_VLANS`, add `Los Angeles VLANs` as the description. 
