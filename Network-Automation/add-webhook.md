@@ -9,7 +9,7 @@ Follow these steps to:
 
 1. You can use a free website to test webhooks, so open a new browser tab and go to: https://webhook.site/ and then copy your unique URL to your clipboard, and leave this tab open. 
 2. In the NetBox Web UI, navigate to **Operations** > **Webhooks** and click **+ Add**. 
-3. Give it a name and select `IPAM > IP Addresses` for the **Content types** and make sure the `enabled` box is ticked.
+3. Give it a name and select `IPAM > IP Address` for the **Content types** and make sure the `enabled` box is ticked.
 4. Under **Events** tick the boxes for `Creations`, `Updates` and `Deletions`. 
 5. For the **URL** paste in the value for your unique URL from step 1, leave all other settings as default and then scroll down and click **Create**
 
