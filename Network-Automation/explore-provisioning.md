@@ -26,4 +26,4 @@ Follow these steps to get familiar with the following:
 1. This **Config Template** will be used by the switch `AUSYD01-SW-1`. To see where this is assigned, navigate to **DEVICES** > **Devices** > **AUSYD01-SW-1**, then click on **Edit** in the top-right corner. 
 2. Under **management** note the **Config Template** is `Cisco Switch - Basic`. 
 3. Click **Cancel** and then along the top tabs click on **Config Context** and note the **Rendered Context** data.
-4. Click on the **Render Config** tab to view the complete device configuration, then click on **Download** on the right hand side to download as a text file.
+4. Click on the **Render Config** tab to view the complete device configuration, then click on **Download** on the right hand side to download the device configuration as a text file.
