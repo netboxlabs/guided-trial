@@ -8,8 +8,8 @@ Follow these steps to get familiar with the following:
 ### Data Sources   
 1. In the Web UI main menu, navigate to **Operations** and click **Data Sources**, and click on the data source called `Guided Trial Data Source`
 2. Note the Data Source properties - this is a remote Git repository and it has been set to ignore any `.md` or `.csv` files. Data Sources can be either the local file system, a remote Git repo or an Amazon S3 Bucket. 
-3. scroll down to the **Files** section and click on the file called `cisco-switch-template-example.j2` This is a Jinja 2 template file for a Cisco Switch that is being used to render the full configuration for Cisco 9200-24P device types.   
-4. Click the back button in your browser and in the **Files** section, click on the file called `sydney-config-context.json` this contains data in `JSON` format that is used in a **Config Context** for devices in the `Sydney` site. 
+3. scroll down to the **Files** section and click on the file path `cisco-switch-template-example.j2` This is a Jinja 2 template file for a Cisco Switch that is being used to render the full configuration for Cisco 9200-24P device types.   
+4. Click the back button in your browser and in the **Files** section, click on the file path `sydney-config-context.json` this contains data in `JSON` format that is used in a **Config Context** for devices in the `Sydney` site. 
 5. Try adding a new **Data Source** by navigating to **Operations** and click **Data Sources** again. In the top-right corner click on **+ Add**, give it a name and choose either `Git` or `Amazon S3` for the **Type**. Fill out the rest of the form and click **Create**
 
 ### Config Contexts
@@ -20,7 +20,7 @@ Follow these steps to get familiar with the following:
 ### Config Templates
 1. In the Web UI main menu, navigate to **Provisioning** > **Config Templates** and click on the one called `Cisco Switch - Basic`.
 2. Note the **Data Source** and **Data File**, and that the content of the **Template** itself.
-3. Device data from NetBox and the **Config Context** data will be pulled in render the full device configuration in later steps. 
+3. Device data from NetBox and the **Config Context** data will be pulled in to render the full device configuration using this template in later steps. 
 
 ### Render the Device Configuration in the UI
 1. This **Config Template** will be used by the switch `AUSYD01-SW-1`. To see where this is assigned, navigate to **Devices** > **AUSYD01-SW-1**, then click on **Edit** in the top-right corner. 
