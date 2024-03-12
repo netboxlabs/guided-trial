@@ -1,8 +1,8 @@
-prefix,status,tenant,site,vlan,description,tenant_group,vlan_group
-192.168.4.0/22,active,Sales,Los Angeles,,Los Angeles Site Supernet,Divisions,
-192.168.4.0/25,active,Sales,Los Angeles,10,Data,Divisions,USLAX01_VLANS
-192.168.4.128/25,active,Sales,Los Angeles,20,Voice,Divisions,USLAX01_VLANS
-192.168.5.0/25,active,Sales,Los Angeles,30,Branch Wifi,Divisions,USLAX01_VLANS
-192.168.5.128/25,active,Sales,Los Angeles,40,Guest Wifi,Divisions,USLAX01_VLANS
-192.168.6.0/26,active,Sales,Los Angeles,50,Network Management,Divisions,USLAX01_VLANS
-192.168.6.64/30,active,Sales,Los Angeles,60,P2P RTR-SW,Divisions,USLAX01_VLANS
+prefix,status,tenant,site,vlan,description,vlan_group
+192.168.4.0/22,active,Sales,Los Angeles,,Los Angeles Site Supernet,USLAX01_VLANS
+192.168.4.0/25,active,Sales,Los Angeles,10,Data,USLAX01_VLANS
+192.168.4.128/25,active,Sales,Los Angeles,20,Voice,USLAX01_VLANS
+192.168.5.0/25,active,Sales,Los Angeles,30,Branch Wifi,USLAX01_VLANS
+192.168.5.128/25,active,Sales,Los Angeles,40,Guest Wifi,USLAX01_VLANS
+192.168.6.0/26,active,Sales,Los Angeles,50,Network Management,USLAX01_VLANS
+192.168.6.64/30,active,Sales,Los Angeles,60,P2P RTR-SW,USLAX01_VLANS
