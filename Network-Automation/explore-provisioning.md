@@ -18,12 +18,12 @@ Follow these steps to get familiar with the following:
 3. Note the **Data** on the right-hand side. This data will be pulled into the **Config Template** along with the device data from NetBox to render the full device configuration in later steps. 
 
 ### Config Templates
-1. In the Web UI main menu, navigate to **Provisioning** > **Config Templates** and click on the one called `Cisco Switch - Basic`.
+1. In the Web UI main menu, navigate to **Provisioning** > **Config Templates** and click on the one called `Juniper Switch Template`.
 2. Note the **Data Source** and **Data File**, and that the content of the **Template** itself.
 3. Device data from NetBox and the **Config Context** data will be pulled in to render the full device configuration using this template in later steps. 
 
 ### Render the Device Configuration in the UI
-1. This **Config Template** will be used by the switch `AUSYD01-SW-1`. To see where this is assigned, navigate to **DEVICES** > **Devices** > **AUSYD01-SW-1**, then click on **Edit** in the top-right corner. 
-2. Under **management** note the **Config Template** is `Cisco Switch - Basic`. 
+1. This **Config Template** will be used by the switch `AUSYD01-SW-2`. To see where this is assigned, navigate to **DEVICES** > **Devices** > **AUSYD01-SW-2**, then click on **Edit** in the top-right corner. 
+2. Under **management** note the **Config Template** is `Juniper Switch Template`. 
 3. Click **Cancel** and then along the top tabs click on **Config Context** and note the **Rendered Context** data.
 4. Click on the **Render Config** tab to view the complete device configuration, then click on **Download** on the right hand side to download the device configuration as a text file.
